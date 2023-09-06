@@ -23,7 +23,7 @@ layout: default
       </div>
       {% endif %}
     </li>
-
+    
     {%- for post in site.posts -%}
       <li>
         {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
@@ -43,7 +43,7 @@ layout: default
           </ul>
           {%- endif -%}
         </div>
-        <div class="post">
+        <div class="post-header">
           {%- if site.show_excerpts -%}
             {{ post.excerpt }}
           {%- endif -%}
