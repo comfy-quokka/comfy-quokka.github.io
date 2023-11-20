@@ -68,7 +68,7 @@ main {
   }
 
   .content {
-    @media screen and (min-width: $mobileW + 1) {
+    @media screen and (min-width: $mobileW+1) {
       max-width: calc(100% - #{$leftWidth});
       margin-left: $leftWidth;
       width: 100%;
@@ -85,7 +85,7 @@ main {
     @media screen and (max-width: $smallMobileW) {
       padding: 5vh 20px;
     }
-    @media screen and (min-width: $mobileW + 1) {
+    @media screen and (min-width: $mobileW+1) {
       position: fixed;
       max-width: 280px;
     }
@@ -275,8 +275,9 @@ main {
   font-weight: 300;
   color: #222;
   line-height: 1.9em;
-  max-height: 150pt;
+  max-height:120pt;
   overflow: hidden;
+  text-align: justify;
   p {
     margin-top: 10px;
   }
